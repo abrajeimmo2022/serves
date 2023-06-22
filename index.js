@@ -44,5 +44,5 @@ app.use((err, req, res, next) => {
 const PORT = process.env.PORT || 1000;
 connect()
 app. listen(PORT,
-    console.log(`index run in port ${PORT}`
+    console.log(`server run in port ${PORT}`
 ));
