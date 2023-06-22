@@ -41,7 +41,7 @@ app.use((err, req, res, next) => {
     stack: err.stack,
   });
 });
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 1000;
 connect()
 app. listen(PORT,
     console.log(`index run in port ${PORT}`
