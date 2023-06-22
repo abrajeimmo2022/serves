@@ -41,7 +41,7 @@ app.use((err, req, res, next) => {
     stack: err.stack,
   });
 });
-const PORT = process.env.PORT || 1000;
+const PORT = process.env.PORT || 5000;
 connect()
 app. listen(PORT,
     console.log(`server run in port ${PORT}`
